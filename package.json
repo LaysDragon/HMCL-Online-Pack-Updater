@@ -1,0 +1,24 @@
+{
+  "name": "hmcl-online-pack-updater",
+  "version": "1.0.0",
+  "description": "A script that can update the hmcl online pack server-manifest.json",
+  "main": "update-modpack.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LaysDragon/HMCL-Online-Pack-Updater.git"
+  },
+  "author": "LaysDragon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LaysDragon/HMCL-Online-Pack-Updater/issues"
+  },
+  "homepage": "https://github.com/LaysDragon/HMCL-Online-Pack-Updater#readme",
+  "dependencies": {
+    "node-gzip": "^1.1.2",
+    "sha1-file": "^2.0.0",
+    "walk": "^2.3.14"
+  }
+}
